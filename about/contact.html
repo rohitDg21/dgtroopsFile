@@ -191,9 +191,7 @@
                       <div class="copyright-sec pb-0  text-center">
                         <p>Copyright 2021 DIGITROOPS Inc. All rights reserved.</p>
                       </div>
-                      <div class="made-with text-center mt-2">
-                        <p>Made with <i class="fa fa-heart"></i></p>
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
@@ -392,16 +390,28 @@
               </div>
               <div class="row m-4 formInputs">
                   <div class="col fInputs">
-                      <input type="number" class="form-control" placeholder="Contact Number" required>
+                      <input type="number" id="inputNumber" class="form-control" placeholder="Contact Number" required>
                     </div>
                     <div class="col fInputs">
                     <input type="email" class="form-control" placeholder="Email ID" required>
                   </div>
+
+                  
                   <!-- <div class="col fInputs countryInput1">
                         <input type="text" class="form-control" placeholder="Country" required>
                   </div> -->
                 
               </div>
+
+              <script>
+
+                let inputNumber=document.querySelector("#inputNumber");
+               
+                inputNumber.addEventListener("mousewheel",function(e){
+                  e.target.blur();
+                })
+
+              </script>
               
               <div class="row m-4 formInputs ">
                 <div class="col fInputs">
@@ -507,10 +517,7 @@
                                 #39, NGEF Lane, 2nd Floor, Suite No.1209, Indiranagar, Bangalore, Karnataka 560038, IN
                             </h3>
 
-                            <div class="made-with desktop-hide">
-                                <!-- <p>Made with <i class="fa fa-heart"></i> in NYC | <a href="https://www.dmca.com/Protection/Status.aspx?ID=264a79f4-52cc-4bfc-8f25-8bdd07358e06" title="DMCA Compliance information for www.unifiedinfotech.net" class="dmca-badge" target="_blank"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-11.png?ID=264a79f4-52cc-4bfc-8f25-8bdd07358e06" alt="DMCA Compliance information for www.unifiedinfotech.net"></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script></p> -->
-                                <p>Made with <i class="fa fa-heart"></i> </p>
-                            </div>
+                            
                         </div>
                         <div class="footer-social social-icon-list responsive-hide">
                             <ul>
@@ -598,14 +605,7 @@
                     </div>
                     <!-- footer-copyright-item -->
                     <!-- footer-copyright-item -->
-                    <div class="footer-copyright-item col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-right">
-                        <!-- footer-copyright-branding -->
-                        <p class="footer-copyright-branding">Made with <i class="fa fa-heart"></i></p>
-                        <!-- footer-copyright-branding -->
-                        <!-- footer-copyright-dmca -->
-
-                        <!-- footer-copyright-dmca -->
-                    </div>
+                    
                     <!-- footer-copyright-item -->
                 </div>
                 <!-- footer-copyright -->
@@ -628,11 +628,7 @@
                             <p>&copy; 2021 Digitroops Pvt Ltd. All rights reserved.</p>
                         </div>
                     </div>
-                    <div class=col-4>
-                        <div class=made-with>
-                            <p>Made with <i class="fa fa-heart"></i> </p>
-                        </div>
-                    </div>
+                   
                     <!-- footer-bottom -->
                 </div>
             </div>

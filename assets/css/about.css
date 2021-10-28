@@ -12,9 +12,12 @@
     opacity: 1;
 }
 
+
+
 .bgImageContainer{
     height: 500px;
 }
+
 
 #aboutTitle{
     color: rgb(255, 255, 255);
@@ -111,7 +114,7 @@
 .cards-text{
     color: #495057;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
 }
 
