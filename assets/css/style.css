@@ -54191,7 +54191,7 @@ li.has-uipl-sub-menu.sub-menu-active .uipl-sub-menu-wraper {
 }
 
 .banner-main .page-title1 {
-    font-size: 2.5em;
+    font-size: 1.5rem;
     color: #fff;
     line-height: 1;
     letter-spacing: 2px;
@@ -54228,6 +54228,6 @@ li.has-uipl-sub-menu.sub-menu-active .uipl-sub-menu-wraper {
     width: 100px;
     height: 80px;
 }
-.container-fluid .logo{
-    margin-left: -30px; 
+.container-fluid .logo {
+    margin-left: -20px;
 }
