@@ -11,6 +11,10 @@
     left: 0;
     opacity:0.9;
 }
+.hideGroup{
+
+    display: none;
+}
 
 .program{
     margin: 2vw;
@@ -132,7 +136,7 @@
 
 
 .bgImageContainer{
-    height: 590px;
+    height: 85vh;
 }
 
 
@@ -239,9 +243,11 @@
     justify-content: center;
     align-items: center;
 }
+
 .ciscoCourse{
     font-size: 2vw;
     color: #6f6f9b;
+    box-shadow: 3px 3px 7px -5px black;
 
 
     /* transform: translate(-50%,-50%)
@@ -487,6 +493,7 @@
 
     .para{
         width: 100%;
+        padding: 9vw;
         text-align: center;
     }
     
@@ -529,16 +536,17 @@
 
     .ciscoCourses1{
         margin-bottom: 7vw;
-        padding-left: 0vw;
+        padding-left: 10vw;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: initial;
+        padding-right: 10vw;
+
     }
 
     .tOptdiv{
-        margin-top: 8vw;
         margin-bottom: 8vw;
 
     }
@@ -550,7 +558,79 @@
         justify-content: center;
     }
 
+    .ciscoImage{
+    background-size: contain;
+    width: 52vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 27.3vw;
+    border-radius: 3vw;
+    }
+
     .ciscoCourse{
         font-size: 4vw;
+        margin-bottom: 4vw;
     }
+
+    .visibleGroup{
+        display: none;
+    }
+
+
+    .hideGroup{
+        display: flex;
+        justify-content: center;
+    }
+
+    .rounded-image1 ,.rounded-image2,.rounded-image3,.rounded-image4,.rounded-image5,.rounded-image6,.rounded-image7,.rounded-image8,.rounded-image9{
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .program{
+        margin: 3vw 7vw;
+    }
+
+
+    .trainings{
+        display: flex;
+        padding-top: 7vw;
+        flex-direction: column;
+    }
+
+    .vmwareImage{
+        width: 52vw;
+        height: 27.3vw;
+        background-size: cover;
+
+    }
+
+    .awsImage{
+        width: 51vw;
+        height: 29vw;
+        background-size: cover;
+    }
+
+    .pythonImage{
+        width: 55vw;
+        height: 28.3vw;
+        background-size: cover;
+    }
+    .managementImage{
+        width: 52vw;
+        height: 31vw;
+        background-size: cover;
+
+    }
+    .designImage{
+        background-size: cover;
+    }
+}
+
+
+@media screen and (min-height:1000px) {
+    .bgImageContainer{
+        height: 100vh;
+    }
+    
 }
