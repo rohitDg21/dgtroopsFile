@@ -13,6 +13,21 @@
 }
 
 
+.footer-social{
+  padding: 35px 20px;
+  display: inline-block;
+  margin: 0px auto;
+  z-index: 2;
+  position: relative;
+  background: none;
+  border: none;
+}
+
+
+/* .social-icon-list ul li a{
+  padding: 0 1vw;
+} */
+
 .countryInput1{
     display: none;
 }
@@ -49,6 +64,10 @@
   width: 13vw;
   margin:20px 0 20px 0px;
   /* border: 0.2px solid black; */
+}
+
+.socialLinks{
+  display: none;
 }
 
 form{
@@ -458,13 +477,24 @@ input[type="email"] {
   .addressLogo{
     display: none;
   }
+
+  .socialLinks{
+    display: flex;
+  }
   
   .phNos{
     margin-left: 6vw;
   }
 
+  .social-icon-list ul li {
+    padding: 0 4vw;
+  }
+
   .allMails{
     margin-left: 6vw;
+  }
+  .socialLinks1{
+    display: none;
   }
   .checkboxPara{
     margin-left: 8px;
