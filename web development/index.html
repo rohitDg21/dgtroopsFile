@@ -43,8 +43,8 @@
     <meta name="geo.region" content="US-NY" />
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" href="./assets/images/logo.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="./assets/images/logo.png" sizes="192x192">
+    <link rel="icon" href="../assets/images/logo.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="../assets/images/logo.png" sizes="192x192">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
@@ -52,12 +52,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <title> Digitroops - Empowering Businesses Globally</title>
-    <link href="assets/css/fancybox.min.css" rel=stylesheet media="all">
+    <link href="../assets/css/fancybox.min.css" rel=stylesheet media="all">
     <!-- <link href="https://www.unifiedinfotech.net/assets/css/video-js.min.css" rel=stylesheet media="all"> -->
-    <link href="../assets/css/home.css?1630233894" rel=stylesheet media="all">
-    <link href="../assets/css/home1.css?1630233894" rel=stylesheet media="all">
+    <!-- <link href="../assets/css/home.css?1630233894" rel=stylesheet media="all"> -->
 
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="../assets/css/home.css?1630233894" rel=stylesheet media="all">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css?1630233894">
     <script src="contact.js"></script>
     <link rel="stylesheet" href="../assets/css/webDevelopment.css">
 
@@ -127,7 +127,7 @@
                         <li><a class="mobile-dropdown-item" href="#">It Infrastructure Services</a></li>
                         <li><a class="mobile-dropdown-item" href="#">Advisory and Consultancy</a></li>
                         <li><a class="mobile-dropdown-item" href="../trainingAndDevelopment/index.html">Training and Devlopment</a></li>
-                        <li><a class="mobile-dropdown-item" href="#">Contact Us</a></li>
+                        
                       </ul>
                     </li>
                     <li class="dropdown-parent-li"><a href="">How we work</a></li>
@@ -137,7 +137,7 @@
                         <li><a class="mobile-dropdown-item" href="#">UI/UX Gallery</a></li>
                       </ul>
                     </li>
-                   <li class="dropdown-parent-li"><a href="index.html">Company</a></li>
+                   <li class="dropdown-parent-li"><a href="../about/index.html">Company</a></li>
                     
                   </ul>
                 </nav>
@@ -199,7 +199,7 @@
         <nav class="navbar navbar-expand-lg main-navbar desktop-nav fixed-navbar">
           <div class="container-fluid quote-wrap">
             <a class="navbar-brand logo-light" href="../index.html">
-              <img class="logo" src="../assets/images/logo.png" alt="DIGITROOPS Logo Dark"  >
+                <img class="logo" src="../assets/images/logo.png" alt="DIGITROOPS Logo White"  >
             </a>
             <a class="navbar-brand logo-dark" href="../index.html">
               <img class="logo" src="../assets/images/logo.png" alt="DIGITROOPS Logo Dark"  >
@@ -247,7 +247,7 @@
                         <div class="uipl-sub-menu-container">
                           <!-- uipl-sub-menu-close -->
                           <div class="uipl-sub-menu-close">
-                            <img src="assets/images/home/UIPL-Mega-Menu-Close-Icon.svg" alt="Mega Menu Close" width="40" height="40">
+                            <img src="../assets/images/home/UIPL-Mega-Menu-Close-Icon.svg" alt="Mega Menu Close" width="40" height="40">
                           </div>
                           <!-- uipl-sub-menu-close -->
                           <!-- uipl-sub-menu-section -->
@@ -267,14 +267,14 @@
                       </div>
                     </li>
                     <!-- <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#">Company</a> -->
-                      <li class="nav-item"><a href="index.html" class="nav-link">Company</a></li>
+                      <li class="nav-item"><a href="../about/index.html" class="nav-link">Company</a></li>
                     </ul>
                     <!-- navbar-nav -->
       
                   </div>
                 </div>
                 <div class="get-quote-wrap">
-                  <a class="button-5 responsive-hide" href="#formContact">
+                  <a class="button-5 responsive-hide" href="../about/contact.html#formContact">
                     <div class=eff-5></div>
                     <span>CONTACT US</span>
                   </a>
@@ -384,6 +384,7 @@
 
 </div>
 
+
 <div class="customWebsite" id="customWebsite">
   <div class="customWebsiteImg"></div>
     <div class="  cWebsitePara">
@@ -393,6 +394,77 @@
     </div>
   </div>
 </div>
+  
+<!-- <script>
+
+const  el= document.getElementById("customWebsite");
+//   function update(elem) {
+//   const container = document.getElementsByClassName("customWebsite");
+//   const rect = elem.getBoundingClientRect();
+
+//   container.innerHTML = '';
+//   console.log(rect.top);
+//   if( rect.top===0){
+
+//   }
+// }
+// function update() {
+// const  el= document.getElementsByClassName("customWebsite");
+
+//   var rect = el.getBoundingClientRect();
+//         vWidth   = window.innerWidth || document.documentElement.clientWidth,
+//         vHeight  = window.innerHeight || document.documentElement.clientHeight,
+//         efp      = function (x, y) { return document.elementFromPoint(x, y) };     
+  
+
+//   console.log(rect.top)
+//   // Return false if it's not in the viewport
+//   if (rect.right < 0 || rect.bottom < 0 
+//           || rect.left > vWidth || rect.top > vHeight)
+        
+//           return;
+            
+//             // Return true if any of its four corners are visible
+  
+//     el.classList.add("yoyo")
+   
+// }
+
+function update(el) {
+  var top = el.offsetTop;
+  var left = el.offsetLeft;
+  var width = el.offsetWidth;
+  var height = el.offsetHeight;
+  
+  while(el.offsetParent) {
+    el = el.offsetParent;
+    top += el.offsetTop;
+    left += el.offsetLeft;
+  }
+
+  console.log(el.offsetTop)
+
+  // return (
+  //   top < (window.pageYOffset + window.innerHeight) &&
+  //   left < (window.pageXOffset + window.innerWidth) &&
+  //   (top + height) > window.pageYOffset &&
+  //   (left + width) > window.pageXOffset
+    
+  // );
+  if (el.offsetTop===0){
+        
+          
+            
+            // Return true if any of its four corners are visible
+  
+    el.classList.add("yoyo")
+   
+}
+}
+
+document.addEventListener('scroll', update);
+update(el);
+</script> -->
 
 <div class=" ecommerceWebsite " id="ecommerceWebsite">
   <div class="customWebsiteImg2"></div>
@@ -400,8 +472,7 @@
  
       <div class=" customWebsitePara">Superior online shopping experiences with a user-friendly CMS to boost customer management, generate higher conversion rate , revenue and brand loyalty. 
     </div>
- 
-     
+  
     </div>
   </div>
 </div>
@@ -662,6 +733,9 @@ document.getElementsByClassName("webService2").addEventListener("click", functio
 </div>
 
 <!-- <script src="iiii.js"></script> -->
+
+  
+
 
 
 

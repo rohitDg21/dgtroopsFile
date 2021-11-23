@@ -234,9 +234,6 @@ background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
   border-left: 0.4em solid transparent;
 } */
 
-.footer-wrap{
-  margin-top: 100px;
-}
 
 .formBtn:hover{
   background: #09203f;
@@ -465,7 +462,39 @@ input[type="email"] {
   .input-group-text{
     width: 286px;
   }
-
+  .uipl-contact-form .form-group .bar {
+    position: relative;
+    border-bottom: 2px solid #efefef;
+    display: block;
+    }
+    .uipl-contact-form .form-group .bar::before {
+    content: '';
+    height: 0.125rem;
+    width: 0;
+    left: 50%;
+    bottom: -2px;
+    position: absolute;
+    background: #efefef;
+    -webkit-transition: left 0.28s ease, width 0.28s ease;
+    transition: left 0.28s ease, width 0.28s ease;
+    z-index: 2;
+    }
+    .uipl-contact-form .form-group input:focus, .uipl-contact-form .form-group input.has-value, .uipl-contact-form .form-group textarea:focus, .uipl-contact-form .form-group textarea.has-value {
+    color: #e9ecef;
+    }
+    .uipl-contact-form .textarea-border {
+    border: 2px solid #e9ecef;
+    padding: 19px 15px 10px;
+    }
+    
+    
+    
+    .flag img{
+    height: 50px;
+    }
+    .footer-wrap .footer-bottom {
+    padding: 10px;
+    }
   .address{
     letter-spacing: 2px;
     width: 191px;
