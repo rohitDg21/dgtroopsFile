@@ -15,6 +15,10 @@
 }
 
 
+.row{
+  justify-content: space-between;
+}
+
 /* .bgImageContainer{
     height: 34vh;
 } */
@@ -55,8 +59,6 @@
 
 .row{
   display: flex;
-  text-align: center;
-  justify-content: center;
 }
 
 

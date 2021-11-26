@@ -11,8 +11,10 @@
     left: 0;
     opacity: 1;
 }
-
-.uipl-contact-form .form-group .bar {
+.row{
+    justify-content: space-between;
+}
+/* .uipl-contact-form .form-group .bar {
     position: relative;
     border-bottom: 2px solid #efefef;
     display: block;
@@ -44,7 +46,7 @@
     }
     .footer-wrap .footer-bottom {
     padding: 10px;
-    }
+    } */
 
 .bgImageContainer{
     height: 500px;

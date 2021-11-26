@@ -23,7 +23,9 @@
   border: none;
 }
 
-
+.row{
+  justify-content: space-between;
+}
 /* .social-icon-list ul li a{
   padding: 0 1vw;
 } */
