@@ -493,6 +493,7 @@
 
     .trainingBox{
         flex-direction: column;
+        margin-top: 12vw;
     }
 
     .para{
